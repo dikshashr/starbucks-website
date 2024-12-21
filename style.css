@@ -1,0 +1,326 @@
+
+/*css file for main body of the website*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 47rem;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+ul.navbar-right{
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    column-gap: 1.5rem;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+
+}
+
+li[id="right"]:hover{
+    color: #008248;
+}
+
+ul.navbar-left{
+    display: flex;
+    padding-left: 0.5rem;
+    align-items: center;
+    font-size: 1.2rem;
+    column-gap: 1.8rem;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+
+button{
+    font-size: 1rem;
+    border-radius: 5.5rem;
+    padding: 0.5rem; 
+}
+
+button[id="join-now"]{
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 0.5rem; 
+
+    width: 6vw;
+    height: 3vw;
+}
+
+button[id="sign-up"]{
+    border-color: #eae6e6;
+    border-style: none;
+    padding: 0.5rem; 
+
+    width: 6vw;
+    height: 3vw;
+}
+
+.main{
+    display: flex;
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 2.8vw;
+    align-items: center;
+    font-weight: bold;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #1e3932;
+    color: white;
+    width: 120vw;
+    top: 0;
+
+}
+
+div.intro{
+    display: grid;
+    background-image: url(https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png);
+    height: 60vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 195vw;
+    background-position-x: 60%;
+    background-position-y: 90%;
+    background-color: #d4e9e2;
+    align-content: center;
+    justify-content: start;
+    padding: 1.5rem;
+
+}
+
+p[id="intro"]{
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+
+strong[id="intro"]{
+    font-size: 3rem;
+}
+
+a:link {
+    color: rgb(100, 100, 100);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a[id="sign-up"]:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a[id="footer"]:visited {
+    color: rgb(70, 70, 70);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+button[type="submit"]{
+    font-size: 1.3rem;
+    width: 7.5vw;
+    border-radius: 1.8rem;
+    border-style: none;
+    background-color: #008248;
+    color: white;
+    padding: 0.5rem;
+}
+
+div.ms{
+    text-align: center;
+    padding: 5rem;
+
+}
+
+ol[id="list-1"]{
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: row;
+    column-gap: 5rem;
+}
+
+#h2{
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+#h4{
+    font-size:1.5rem ;
+}
+
+#list-1{
+    padding: 5rem;
+}
+
+label[id="text"]{
+    font-size: 1.6rem;
+
+}
+
+p.text{
+    font-size: 1.1rem;
+}
+
+#fav{
+    background-color: #f1f8f6;
+    padding: 1.5rem;
+    text-align: center;
+
+}
+
+ul[id="stars"]{
+    display: flex;
+    margin: 70px 0px 0px 0px;
+    font-size: 2rem;
+    flex-direction: row;
+    column-gap: 8rem;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.drink{
+    padding: 4rem;
+    background-image: url(https://i.pinimg.com/736x/78/ad/0e/78ad0e758137b222a375143c1473797c.jpg);
+    background-color: #d4e9e2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 30%;
+    background-size: 400px ;
+    text-align: left;
+}
+
+#drink{
+    margin-left: 50%;
+}
+
+h2[id="drink"]{
+    font-size: 1.8rem;
+}
+
+p[id="drink"]{
+    font-size: 1.2rem;
+}
+
+div.extras{
+    padding: 4.5rem;
+    text-align: center;
+}
+
+ul[id="extras"]{
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: row;
+    column-gap: 8rem;
+    justify-content: center;
+}
+
+h2[id="extras"]{
+    font-size: 2rem;
+}
+
+p[id="extras"]{
+    font-size: 1.3rem;
+}
+
+img[id="extras"]{
+    padding: 1rem;
+}
+
+p[id="extra"]{
+    font-size: 1.1rem;
+}
+
+div.table{
+    background-color: #faf8f2;
+    padding: 5rem;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+table{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+td[id="row"]{
+    height: 80px;
+    border-bottom: 0.5px solid #eae6e6;
+    width: 50px;
+}
+
+td{
+    padding: 2.5rem;
+    text-align: left;
+
+}
+
+strong[id="dollar"]{
+    font-size: 1.8rem;
+}
+
+strong[id="dollar-2"]{
+    font-size: 1.5rem;
+}
+
+table,p{
+    font-size: 1.1rem;
+}
+
+div.foot{
+    background-color: white;
+    left: 0;
+    margin: 3%;
+    bottom: 0;
+    width: 100%;
+}
+
+
+ul[id="footer"]{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: flex-start;
+}  
+
+
