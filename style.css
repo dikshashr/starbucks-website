@@ -76,7 +76,6 @@ button[id="sign-up"]{
     border-color: #eae6e6;
     border-style: none;
     padding: 0.5rem; 
-
     width: 6vw;
     height: 3vw;
 }
@@ -124,7 +123,13 @@ strong[id="intro"]{
 }
 
 a:link {
-    color: rgb(100, 100, 100);
+    color: rgb(194, 194, 194);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a[id="footer"]:link {
+    color: rgb(90, 89, 89);
     background-color: transparent;
     text-decoration: none;
 }
